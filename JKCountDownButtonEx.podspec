@@ -1,7 +1,7 @@
 version = "1.1.0";
 
 Pod::Spec.new do |s|
-  s.name         = "JKCountDownButton"
+  s.name         = "JKCountDownButtonEx"
   s.version      = version
   s.summary      = "JKCountDownButton, subclassing UIButton implementation iOS countdown button, register with sending the verification code and countdown"
   s.homepage     = "https://github.com/shaojiankui/JKCountDownButton"
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://www.skyfox.org"
   s.platform     = :ios
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/shaojiankui/JKCountDownButton.git", :tag => "#{version}" }
+  s.source       = { :git => "https://github.com/jprothwell/JKCountDownButton.git", :tag => "#{version}" }
   s.source_files = "JKCountDownButton/JKCountDownButton/JKCountDownButton.{h,m}"
 end
